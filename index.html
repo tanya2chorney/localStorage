@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>localStorage</title>
+  </head>
+  <body>
+    <!-- Завдання 1 -->
+
+    <h1>To do list</h1>
+    <input type="checkbox" id="first" />
+    <label for="first">Перше завдання</label>
+    <br />
+    <input type="checkbox" id="second" />
+    <label for="second">Друге завдання</label>
+    <br />
+    <input type="checkbox" id="third" />
+    <label for="third">Третє завдання</label>
+    <br />
+    <input type="checkbox" id="fourth" />
+    <label for="fourth">Четверте завдання</label>
+
+    <!-- Завдання 2 -->
+    <form id="data-form">
+      <label for="username">Ім'я:</label>
+      <input type="text" id="username" required />
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" required />
+      <button type="submit">Зберегти</button>
+    </form>
+    <!-- Завдання 3 -->
+    <h1>Закладки</h1>
+    <div id="bookmark-container"></div>
+
+    <h2>Додати нову закладку</h2>
+    <input type="text" id="bookmark-name" placeholder="Назва" />
+    <input type="url" id="bookmark-url" placeholder="URL" />
+    <button id="add-bookmark">Додати</button>
+
+    <!-- Завдання 4 -->
+    <h1>Менеджер контактів</h1>
+
+    <div id="contact-list"></div>
+
+    <h2>Додати новий контакт</h2>
+    <input type="text" id="first-name" placeholder="Ім'я" />
+    <input type="text" id="last-name" placeholder="Прізвище" />
+    <input type="tel" id="phone" placeholder="Телефон" />
+    <input type="email" id="email" placeholder="Електронна адреса" />
+    <button id="add-contact">Додати контакт</button>
+
+    <script src="./first.js" type="module"></script>
+    <script src="./second.js" type="module"></script>
+    <script src="./third.js" type="module"></script>
+    <script src="./fourth.js" type="module"></script>
+  </body>
+</html>
